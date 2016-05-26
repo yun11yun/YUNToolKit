@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C29713E51CE33367004DC77E /* target */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C29713E81CE33367004DC77E /* Build configuration list for PBXAggregateTarget "target" */;
+			buildPhases = (
+				C29713E91CE333A3004DC77E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = target;
+			productName = target;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C24E90221CD341F800A09F52 /* YUNToolsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C24E90211CD341F800A09F52 /* YUNToolsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C24E90291CD341F800A09F52 /* YUNToolsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24E901E1CD341F800A09F52 /* YUNToolsKit.framework */; };
+		C24E902E1CD341F800A09F52 /* YUNToolsKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C24E902D1CD341F800A09F52 /* YUNToolsKitTests.m */; };
+		C24E903A1CD3425E00A09F52 /* YUNLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C24E90381CD3425E00A09F52 /* YUNLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C24E903B1CD3425E00A09F52 /* YUNLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C24E90391CD3425E00A09F52 /* YUNLabel.m */; };
+		C24E903F1CD349AD00A09F52 /* YUNLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = C24E903D1CD349AD00A09F52 /* YUNLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C24E90401CD349AD00A09F52 /* YUNLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C24E903E1CD349AD00A09F52 /* YUNLineView.m */; };
+		C292D6391CF5381600F53B7F /* YUNButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C292D6371CF5381600F53B7F /* YUNButton.h */; };
+		C292D63A1CF5381600F53B7F /* YUNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C292D6381CF5381600F53B7F /* YUNButton.m */; };
+		C292D63D1CF5395800F53B7F /* YUNTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C292D63B1CF5395800F53B7F /* YUNTextField.h */; };
+		C292D63E1CF5395800F53B7F /* YUNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C292D63C1CF5395800F53B7F /* YUNTextField.m */; };
+		C292D6411CF53AB100F53B7F /* YUNTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C292D63F1CF53AB100F53B7F /* YUNTextView.h */; };
+		C292D6421CF53AB100F53B7F /* YUNTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C292D6401CF53AB100F53B7F /* YUNTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C24E902A1CD341F800A09F52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24E90151CD341F800A09F52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24E901D1CD341F800A09F52;
+			remoteInfo = YUNToolsKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C24E901E1CD341F800A09F52 /* YUNToolsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YUNToolsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24E90211CD341F800A09F52 /* YUNToolsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUNToolsKit.h; sourceTree = "<group>"; };
+		C24E90231CD341F800A09F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24E90281CD341F800A09F52 /* YUNToolsKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUNToolsKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24E902D1CD341F800A09F52 /* YUNToolsKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUNToolsKitTests.m; sourceTree = "<group>"; };
+		C24E902F1CD341F800A09F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24E90381CD3425E00A09F52 /* YUNLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNLabel.h; sourceTree = "<group>"; };
+		C24E90391CD3425E00A09F52 /* YUNLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNLabel.m; sourceTree = "<group>"; };
+		C24E903D1CD349AD00A09F52 /* YUNLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNLineView.h; sourceTree = "<group>"; };
+		C24E903E1CD349AD00A09F52 /* YUNLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNLineView.m; sourceTree = "<group>"; };
+		C292D6371CF5381600F53B7F /* YUNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNButton.h; sourceTree = "<group>"; };
+		C292D6381CF5381600F53B7F /* YUNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNButton.m; sourceTree = "<group>"; };
+		C292D63B1CF5395800F53B7F /* YUNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNTextField.h; sourceTree = "<group>"; };
+		C292D63C1CF5395800F53B7F /* YUNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNTextField.m; sourceTree = "<group>"; };
+		C292D63F1CF53AB100F53B7F /* YUNTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNTextView.h; sourceTree = "<group>"; };
+		C292D6401CF53AB100F53B7F /* YUNTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C24E901A1CD341F800A09F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24E90251CD341F800A09F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24E90291CD341F800A09F52 /* YUNToolsKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C24E90141CD341F800A09F52 = {
+			isa = PBXGroup;
+			children = (
+				C24E90201CD341F800A09F52 /* YUNToolsKit */,
+				C24E902C1CD341F800A09F52 /* YUNToolsKitTests */,
+				C24E901F1CD341F800A09F52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C24E901F1CD341F800A09F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C24E901E1CD341F800A09F52 /* YUNToolsKit.framework */,
+				C24E90281CD341F800A09F52 /* YUNToolsKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C24E90201CD341F800A09F52 /* YUNToolsKit */ = {
+			isa = PBXGroup;
+			children = (
+				C24E90211CD341F800A09F52 /* YUNToolsKit.h */,
+				C24E903C1CD3428A00A09F52 /* Views */,
+				C292D6361CF537F500F53B7F /* Controls */,
+				C24E90231CD341F800A09F52 /* Info.plist */,
+			);
+			path = YUNToolsKit;
+			sourceTree = "<group>";
+		};
+		C24E902C1CD341F800A09F52 /* YUNToolsKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C24E902D1CD341F800A09F52 /* YUNToolsKitTests.m */,
+				C24E902F1CD341F800A09F52 /* Info.plist */,
+			);
+			path = YUNToolsKitTests;
+			sourceTree = "<group>";
+		};
+		C24E903C1CD3428A00A09F52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C24E90381CD3425E00A09F52 /* YUNLabel.h */,
+				C24E90391CD3425E00A09F52 /* YUNLabel.m */,
+				C24E903D1CD349AD00A09F52 /* YUNLineView.h */,
+				C24E903E1CD349AD00A09F52 /* YUNLineView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C292D6361CF537F500F53B7F /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				C292D6371CF5381600F53B7F /* YUNButton.h */,
+				C292D6381CF5381600F53B7F /* YUNButton.m */,
+				C292D63B1CF5395800F53B7F /* YUNTextField.h */,
+				C292D63C1CF5395800F53B7F /* YUNTextField.m */,
+				C292D63F1CF53AB100F53B7F /* YUNTextView.h */,
+				C292D6401CF53AB100F53B7F /* YUNTextView.m */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C24E901B1CD341F800A09F52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24E903A1CD3425E00A09F52 /* YUNLabel.h in Headers */,
+				C292D6411CF53AB100F53B7F /* YUNTextView.h in Headers */,
+				C292D6391CF5381600F53B7F /* YUNButton.h in Headers */,
+				C24E90221CD341F800A09F52 /* YUNToolsKit.h in Headers */,
+				C24E903F1CD349AD00A09F52 /* YUNLineView.h in Headers */,
+				C292D63D1CF5395800F53B7F /* YUNTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C24E901D1CD341F800A09F52 /* YUNToolsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24E90321CD341F800A09F52 /* Build configuration list for PBXNativeTarget "YUNToolsKit" */;
+			buildPhases = (
+				C24E90191CD341F800A09F52 /* Sources */,
+				C24E901A1CD341F800A09F52 /* Frameworks */,
+				C24E901B1CD341F800A09F52 /* Headers */,
+				C24E901C1CD341F800A09F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YUNToolsKit;
+			productName = YUNToolsKit;
+			productReference = C24E901E1CD341F800A09F52 /* YUNToolsKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C24E90271CD341F800A09F52 /* YUNToolsKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24E90351CD341F800A09F52 /* Build configuration list for PBXNativeTarget "YUNToolsKitTests" */;
+			buildPhases = (
+				C24E90241CD341F800A09F52 /* Sources */,
+				C24E90251CD341F800A09F52 /* Frameworks */,
+				C24E90261CD341F800A09F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24E902B1CD341F800A09F52 /* PBXTargetDependency */,
+			);
+			name = YUNToolsKitTests;
+			productName = YUNToolsKitTests;
+			productReference = C24E90281CD341F800A09F52 /* YUNToolsKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C24E90151CD341F800A09F52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Tordian;
+				TargetAttributes = {
+					C24E901D1CD341F800A09F52 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C24E90271CD341F800A09F52 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C29713E51CE33367004DC77E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C24E90181CD341F800A09F52 /* Build configuration list for PBXProject "YUNToolsKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C24E90141CD341F800A09F52;
+			productRefGroup = C24E901F1CD341F800A09F52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C24E901D1CD341F800A09F52 /* YUNToolsKit */,
+				C24E90271CD341F800A09F52 /* YUNToolsKitTests */,
+				C29713E51CE33367004DC77E /* target */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C24E901C1CD341F800A09F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24E90261CD341F800A09F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C29713E91CE333A3004DC77E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"${SF_TARGET_NAME}.framework/${SF_TARGET_NAME}\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\nrm -rf buildProducts\nmkdir buildProducts\n\n# Build the other platform.\nxcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nxcrun lipo -create \"${BUILT_PRODUCTS_DIR}/$PRODUCT_NAME.framework/$PRODUCT_NAME\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/$PRODUCT_NAME.framework/$PRODUCT_NAME\" -output \"${PROJECT_DIR}/buildProducts/$PRODUCT_NAME\"\n\ncp -rf ${BUILT_PRODUCTS_DIR}/$PRODUCT_NAME.framework ${PROJECT_DIR}/buildProducts\nmv ${PROJECT_DIR}/buildProducts/$PRODUCT_NAME ${PROJECT_DIR}/buildProducts/$PRODUCT_NAME.framework";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C24E90191CD341F800A09F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C292D63A1CF5381600F53B7F /* YUNButton.m in Sources */,
+				C292D6421CF53AB100F53B7F /* YUNTextView.m in Sources */,
+				C24E903B1CD3425E00A09F52 /* YUNLabel.m in Sources */,
+				C292D63E1CF5395800F53B7F /* YUNTextField.m in Sources */,
+				C24E90401CD349AD00A09F52 /* YUNLineView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24E90241CD341F800A09F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24E902E1CD341F800A09F52 /* YUNToolsKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C24E902B1CD341F800A09F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24E901D1CD341F800A09F52 /* YUNToolsKit */;
+			targetProxy = C24E902A1CD341F800A09F52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C24E90301CD341F800A09F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C24E90311CD341F800A09F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C24E90331CD341F800A09F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YUNToolsKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tordian.YUNToolsKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C24E90341CD341F800A09F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YUNToolsKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tordian.YUNToolsKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C24E90361CD341F800A09F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YUNToolsKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tordian.YUNToolsKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C24E90371CD341F800A09F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YUNToolsKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tordian.YUNToolsKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C29713E61CE33367004DC77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C29713E71CE33367004DC77E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C24E90181CD341F800A09F52 /* Build configuration list for PBXProject "YUNToolsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24E90301CD341F800A09F52 /* Debug */,
+				C24E90311CD341F800A09F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24E90321CD341F800A09F52 /* Build configuration list for PBXNativeTarget "YUNToolsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24E90331CD341F800A09F52 /* Debug */,
+				C24E90341CD341F800A09F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24E90351CD341F800A09F52 /* Build configuration list for PBXNativeTarget "YUNToolsKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24E90361CD341F800A09F52 /* Debug */,
+				C24E90371CD341F800A09F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C29713E81CE33367004DC77E /* Build configuration list for PBXAggregateTarget "target" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29713E61CE33367004DC77E /* Debug */,
+				C29713E71CE33367004DC77E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C24E90151CD341F800A09F52 /* Project object */;
+}
