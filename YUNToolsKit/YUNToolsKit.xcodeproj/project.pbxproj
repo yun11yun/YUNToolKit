@@ -7,20 +7,29 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		C29713E51CE33367004DC77E /* target */ = {
+		C242DB651D06DAF5007FCF52 /* YUNToolsKit-Universal */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C29713E81CE33367004DC77E /* Build configuration list for PBXAggregateTarget "target" */;
+			buildConfigurationList = C242DB661D06DAF5007FCF52 /* Build configuration list for PBXAggregateTarget "YUNToolsKit-Universal" */;
 			buildPhases = (
-				C29713E91CE333A3004DC77E /* ShellScript */,
+				C242DB691D06DB0C007FCF52 /* ShellScript */,
 			);
 			dependencies = (
 			);
-			name = target;
-			productName = target;
+			name = "YUNToolsKit-Universal";
+			productName = "YUNToolsKit-Universal";
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		C23EBFCF1D080367006032E5 /* NSDate+YUNToolsKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C23EBFCD1D080367006032E5 /* NSDate+YUNToolsKitAdditions.h */; };
+		C23EBFD01D080367006032E5 /* NSDate+YUNToolsKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C23EBFCE1D080367006032E5 /* NSDate+YUNToolsKitAdditions.m */; };
+		C23EBFD31D080729006032E5 /* NSURL+YUNToolsKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C23EBFD11D080729006032E5 /* NSURL+YUNToolsKitAdditions.h */; };
+		C23EBFD41D080729006032E5 /* NSURL+YUNToolsKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C23EBFD21D080729006032E5 /* NSURL+YUNToolsKitAdditions.m */; };
+		C23EBFD71D080989006032E5 /* NSDictionary+YUNToolsKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C23EBFD51D080989006032E5 /* NSDictionary+YUNToolsKitAdditions.h */; };
+		C23EBFD81D080989006032E5 /* NSDictionary+YUNToolsKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C23EBFD61D080989006032E5 /* NSDictionary+YUNToolsKitAdditions.m */; };
+		C242DB6B1D06DB5B007FCF52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C242DB6A1D06DB5B007FCF52 /* UIKit.framework */; };
+		C242DBBA1D06E3EC007FCF52 /* UIScrollView+YUNToolsKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C242DBB81D06E3EC007FCF52 /* UIScrollView+YUNToolsKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C242DBBB1D06E3EC007FCF52 /* UIScrollView+YUNToolsKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C242DBB91D06E3EC007FCF52 /* UIScrollView+YUNToolsKitAdditions.m */; };
 		C24E90221CD341F800A09F52 /* YUNToolsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C24E90211CD341F800A09F52 /* YUNToolsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C24E90291CD341F800A09F52 /* YUNToolsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24E901E1CD341F800A09F52 /* YUNToolsKit.framework */; };
 		C24E902E1CD341F800A09F52 /* YUNToolsKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C24E902D1CD341F800A09F52 /* YUNToolsKitTests.m */; };
@@ -28,12 +37,38 @@
 		C24E903B1CD3425E00A09F52 /* YUNLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C24E90391CD3425E00A09F52 /* YUNLabel.m */; };
 		C24E903F1CD349AD00A09F52 /* YUNLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = C24E903D1CD349AD00A09F52 /* YUNLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C24E90401CD349AD00A09F52 /* YUNLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C24E903E1CD349AD00A09F52 /* YUNLineView.m */; };
-		C292D6391CF5381600F53B7F /* YUNButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C292D6371CF5381600F53B7F /* YUNButton.h */; };
+		C27992111D07D4C300991C12 /* YUNPieProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = C279920F1D07D4C300991C12 /* YUNPieProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C27992121D07D4C300991C12 /* YUNPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C27992101D07D4C300991C12 /* YUNPieProgressView.m */; };
+		C27992171D07F85000991C12 /* NSArray+YUNToolsKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C27992151D07F85000991C12 /* NSArray+YUNToolsKitAdditions.h */; };
+		C27992181D07F85000991C12 /* NSArray+YUNToolsKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C27992161D07F85000991C12 /* NSArray+YUNToolsKitAdditions.m */; };
+		C292D6391CF5381600F53B7F /* YUNButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C292D6371CF5381600F53B7F /* YUNButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C292D63A1CF5381600F53B7F /* YUNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C292D6381CF5381600F53B7F /* YUNButton.m */; };
-		C292D63D1CF5395800F53B7F /* YUNTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C292D63B1CF5395800F53B7F /* YUNTextField.h */; };
+		C292D63D1CF5395800F53B7F /* YUNTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C292D63B1CF5395800F53B7F /* YUNTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C292D63E1CF5395800F53B7F /* YUNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C292D63C1CF5395800F53B7F /* YUNTextField.m */; };
-		C292D6411CF53AB100F53B7F /* YUNTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C292D63F1CF53AB100F53B7F /* YUNTextView.h */; };
+		C292D6411CF53AB100F53B7F /* YUNTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C292D63F1CF53AB100F53B7F /* YUNTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C292D6421CF53AB100F53B7F /* YUNTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C292D6401CF53AB100F53B7F /* YUNTextView.m */; };
+		C2981F6C1D07A65100D8046A /* YUNWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2981F6A1D07A65100D8046A /* YUNWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2981F6D1D07A65100D8046A /* YUNWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2981F6B1D07A65100D8046A /* YUNWebView.m */; };
+		C2981F711D07B1F100D8046A /* NSMutableArray+YUNToolsKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C2981F6F1D07B1F100D8046A /* NSMutableArray+YUNToolsKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2981F721D07B1F100D8046A /* NSMutableArray+YUNToolsKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2981F701D07B1F100D8046A /* NSMutableArray+YUNToolsKitAdditions.m */; };
+		C2981F751D07B5CF00D8046A /* NSNumber+YUNToolsKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C2981F731D07B5CF00D8046A /* NSNumber+YUNToolsKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2981F761D07B5CF00D8046A /* NSNumber+YUNToolsKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2981F741D07B5CF00D8046A /* NSNumber+YUNToolsKitAdditions.m */; };
+		C2981F791D07B6BA00D8046A /* NSString+YUNToolsKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C2981F771D07B6BA00D8046A /* NSString+YUNToolsKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2981F7A1D07B6BA00D8046A /* NSString+YUNToolsKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2981F781D07B6BA00D8046A /* NSString+YUNToolsKitAdditions.m */; };
+		C2981F7D1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C2981F7B1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2981F7E1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2981F7C1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.m */; };
+		C2981F811D07BDE100D8046A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2981F801D07BDE100D8046A /* Foundation.framework */; };
+		C2981F831D07BDED00D8046A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2981F821D07BDED00D8046A /* QuartzCore.framework */; };
+		C2A6E1071CFD6C8000A2B542 /* YUNBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A6E1051CFD6C8000A2B542 /* YUNBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2A6E1081CFD6C8000A2B542 /* YUNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A6E1061CFD6C8000A2B542 /* YUNBadgeView.m */; };
+		C2A6E10C1CFD7B3A00A2B542 /* YUNDrawingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A6E10A1CFD7B3A00A2B542 /* YUNDrawingUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2A6E10D1CFD7B3A00A2B542 /* YUNDrawingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A6E10B1CFD7B3A00A2B542 /* YUNDrawingUtilities.m */; };
+		C2A6E1121CFD83E600A2B542 /* YUNBorderedView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A6E1101CFD83E600A2B542 /* YUNBorderedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2A6E1131CFD83E600A2B542 /* YUNBorderedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A6E1111CFD83E600A2B542 /* YUNBorderedView.m */; };
+		C2A6E1161CFD8A4600A2B542 /* YUNGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A6E1141CFD8A4600A2B542 /* YUNGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2A6E1171CFD8A4600A2B542 /* YUNGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A6E1151CFD8A4600A2B542 /* YUNGradientView.m */; };
+		C2D2725B1CFE74D700366B37 /* YUNLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D272591CFE74D700366B37 /* YUNLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2D2725C1CFE74D700366B37 /* YUNLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2725A1CFE74D700366B37 /* YUNLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +82,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C23EBFCD1D080367006032E5 /* NSDate+YUNToolsKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YUNToolsKitAdditions.h"; sourceTree = "<group>"; };
+		C23EBFCE1D080367006032E5 /* NSDate+YUNToolsKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YUNToolsKitAdditions.m"; sourceTree = "<group>"; };
+		C23EBFD11D080729006032E5 /* NSURL+YUNToolsKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+YUNToolsKitAdditions.h"; sourceTree = "<group>"; };
+		C23EBFD21D080729006032E5 /* NSURL+YUNToolsKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+YUNToolsKitAdditions.m"; sourceTree = "<group>"; };
+		C23EBFD51D080989006032E5 /* NSDictionary+YUNToolsKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YUNToolsKitAdditions.h"; sourceTree = "<group>"; };
+		C23EBFD61D080989006032E5 /* NSDictionary+YUNToolsKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YUNToolsKitAdditions.m"; sourceTree = "<group>"; };
+		C242DB6A1D06DB5B007FCF52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C242DBB81D06E3EC007FCF52 /* UIScrollView+YUNToolsKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+YUNToolsKitAdditions.h"; sourceTree = "<group>"; };
+		C242DBB91D06E3EC007FCF52 /* UIScrollView+YUNToolsKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+YUNToolsKitAdditions.m"; sourceTree = "<group>"; };
 		C24E901E1CD341F800A09F52 /* YUNToolsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YUNToolsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24E90211CD341F800A09F52 /* YUNToolsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUNToolsKit.h; sourceTree = "<group>"; };
 		C24E90231CD341F800A09F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,12 +101,39 @@
 		C24E90391CD3425E00A09F52 /* YUNLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNLabel.m; sourceTree = "<group>"; };
 		C24E903D1CD349AD00A09F52 /* YUNLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNLineView.h; sourceTree = "<group>"; };
 		C24E903E1CD349AD00A09F52 /* YUNLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNLineView.m; sourceTree = "<group>"; };
+		C279920F1D07D4C300991C12 /* YUNPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNPieProgressView.h; sourceTree = "<group>"; };
+		C27992101D07D4C300991C12 /* YUNPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNPieProgressView.m; sourceTree = "<group>"; };
+		C27992151D07F85000991C12 /* NSArray+YUNToolsKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YUNToolsKitAdditions.h"; sourceTree = "<group>"; };
+		C27992161D07F85000991C12 /* NSArray+YUNToolsKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YUNToolsKitAdditions.m"; sourceTree = "<group>"; };
 		C292D6371CF5381600F53B7F /* YUNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNButton.h; sourceTree = "<group>"; };
 		C292D6381CF5381600F53B7F /* YUNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNButton.m; sourceTree = "<group>"; };
 		C292D63B1CF5395800F53B7F /* YUNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNTextField.h; sourceTree = "<group>"; };
 		C292D63C1CF5395800F53B7F /* YUNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNTextField.m; sourceTree = "<group>"; };
 		C292D63F1CF53AB100F53B7F /* YUNTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNTextView.h; sourceTree = "<group>"; };
 		C292D6401CF53AB100F53B7F /* YUNTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNTextView.m; sourceTree = "<group>"; };
+		C2981F6A1D07A65100D8046A /* YUNWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNWebView.h; sourceTree = "<group>"; };
+		C2981F6B1D07A65100D8046A /* YUNWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNWebView.m; sourceTree = "<group>"; };
+		C2981F6F1D07B1F100D8046A /* NSMutableArray+YUNToolsKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+YUNToolsKitAdditions.h"; sourceTree = "<group>"; };
+		C2981F701D07B1F100D8046A /* NSMutableArray+YUNToolsKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+YUNToolsKitAdditions.m"; sourceTree = "<group>"; };
+		C2981F731D07B5CF00D8046A /* NSNumber+YUNToolsKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+YUNToolsKitAdditions.h"; sourceTree = "<group>"; };
+		C2981F741D07B5CF00D8046A /* NSNumber+YUNToolsKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+YUNToolsKitAdditions.m"; sourceTree = "<group>"; };
+		C2981F771D07B6BA00D8046A /* NSString+YUNToolsKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YUNToolsKitAdditions.h"; sourceTree = "<group>"; };
+		C2981F781D07B6BA00D8046A /* NSString+YUNToolsKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YUNToolsKitAdditions.m"; sourceTree = "<group>"; };
+		C2981F7B1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YUNToolsKitAdditions.h"; sourceTree = "<group>"; };
+		C2981F7C1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YUNToolsKitAdditions.m"; sourceTree = "<group>"; };
+		C2981F801D07BDE100D8046A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2981F821D07BDED00D8046A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C2A6E1051CFD6C8000A2B542 /* YUNBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNBadgeView.h; sourceTree = "<group>"; };
+		C2A6E1061CFD6C8000A2B542 /* YUNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNBadgeView.m; sourceTree = "<group>"; };
+		C2A6E10A1CFD7B3A00A2B542 /* YUNDrawingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNDrawingUtilities.h; sourceTree = "<group>"; };
+		C2A6E10B1CFD7B3A00A2B542 /* YUNDrawingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNDrawingUtilities.m; sourceTree = "<group>"; };
+		C2A6E10F1CFD7C0600A2B542 /* YUNToolsKit_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUNToolsKit_Prefix.pch; sourceTree = "<group>"; };
+		C2A6E1101CFD83E600A2B542 /* YUNBorderedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNBorderedView.h; sourceTree = "<group>"; };
+		C2A6E1111CFD83E600A2B542 /* YUNBorderedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNBorderedView.m; sourceTree = "<group>"; };
+		C2A6E1141CFD8A4600A2B542 /* YUNGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNGradientView.h; sourceTree = "<group>"; };
+		C2A6E1151CFD8A4600A2B542 /* YUNGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNGradientView.m; sourceTree = "<group>"; };
+		C2D272591CFE74D700366B37 /* YUNLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNLoadingView.h; sourceTree = "<group>"; };
+		C2D2725A1CFE74D700366B37 /* YUNLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +141,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2981F831D07BDED00D8046A /* QuartzCore.framework in Frameworks */,
+				C2981F811D07BDE100D8046A /* Foundation.framework in Frameworks */,
+				C242DB6B1D06DB5B007FCF52 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +158,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C242DBB61D06E3CF007FCF52 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C2981F6E1D07B1C700D8046A /* Foundation */,
+				C242DBB71D06E3DB007FCF52 /* UIKit */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		C242DBB71D06E3DB007FCF52 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C242DBB81D06E3EC007FCF52 /* UIScrollView+YUNToolsKitAdditions.h */,
+				C242DBB91D06E3EC007FCF52 /* UIScrollView+YUNToolsKitAdditions.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
 		C24E90141CD341F800A09F52 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +198,10 @@
 			isa = PBXGroup;
 			children = (
 				C24E90211CD341F800A09F52 /* YUNToolsKit.h */,
+				C2981F7F1D07BDB000D8046A /* Frameworks */,
+				C242DBB61D06E3CF007FCF52 /* Categories */,
+				C2A6E10E1CFD7BE400A2B542 /* Other Sources */,
+				C2A6E1091CFD7AFA00A2B542 /* Misc */,
 				C24E903C1CD3428A00A09F52 /* Views */,
 				C292D6361CF537F500F53B7F /* Controls */,
 				C24E90231CD341F800A09F52 /* Info.plist */,
@@ -129,6 +225,18 @@
 				C24E90391CD3425E00A09F52 /* YUNLabel.m */,
 				C24E903D1CD349AD00A09F52 /* YUNLineView.h */,
 				C24E903E1CD349AD00A09F52 /* YUNLineView.m */,
+				C2A6E1051CFD6C8000A2B542 /* YUNBadgeView.h */,
+				C2A6E1061CFD6C8000A2B542 /* YUNBadgeView.m */,
+				C2A6E1101CFD83E600A2B542 /* YUNBorderedView.h */,
+				C2A6E1111CFD83E600A2B542 /* YUNBorderedView.m */,
+				C2A6E1141CFD8A4600A2B542 /* YUNGradientView.h */,
+				C2A6E1151CFD8A4600A2B542 /* YUNGradientView.m */,
+				C2D272591CFE74D700366B37 /* YUNLoadingView.h */,
+				C2D2725A1CFE74D700366B37 /* YUNLoadingView.m */,
+				C279920F1D07D4C300991C12 /* YUNPieProgressView.h */,
+				C27992101D07D4C300991C12 /* YUNPieProgressView.m */,
+				C2981F6A1D07A65100D8046A /* YUNWebView.h */,
+				C2981F6B1D07A65100D8046A /* YUNWebView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -146,6 +254,56 @@
 			name = Controls;
 			sourceTree = "<group>";
 		};
+		C2981F6E1D07B1C700D8046A /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				C2981F6F1D07B1F100D8046A /* NSMutableArray+YUNToolsKitAdditions.h */,
+				C2981F701D07B1F100D8046A /* NSMutableArray+YUNToolsKitAdditions.m */,
+				C2981F731D07B5CF00D8046A /* NSNumber+YUNToolsKitAdditions.h */,
+				C2981F741D07B5CF00D8046A /* NSNumber+YUNToolsKitAdditions.m */,
+				C2981F771D07B6BA00D8046A /* NSString+YUNToolsKitAdditions.h */,
+				C2981F781D07B6BA00D8046A /* NSString+YUNToolsKitAdditions.m */,
+				C2981F7B1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.h */,
+				C2981F7C1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.m */,
+				C27992151D07F85000991C12 /* NSArray+YUNToolsKitAdditions.h */,
+				C27992161D07F85000991C12 /* NSArray+YUNToolsKitAdditions.m */,
+				C23EBFCD1D080367006032E5 /* NSDate+YUNToolsKitAdditions.h */,
+				C23EBFCE1D080367006032E5 /* NSDate+YUNToolsKitAdditions.m */,
+				C23EBFD11D080729006032E5 /* NSURL+YUNToolsKitAdditions.h */,
+				C23EBFD21D080729006032E5 /* NSURL+YUNToolsKitAdditions.m */,
+				C23EBFD51D080989006032E5 /* NSDictionary+YUNToolsKitAdditions.h */,
+				C23EBFD61D080989006032E5 /* NSDictionary+YUNToolsKitAdditions.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		C2981F7F1D07BDB000D8046A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C242DB6A1D06DB5B007FCF52 /* UIKit.framework */,
+				C2981F821D07BDED00D8046A /* QuartzCore.framework */,
+				C2981F801D07BDE100D8046A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2A6E1091CFD7AFA00A2B542 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				C2A6E10A1CFD7B3A00A2B542 /* YUNDrawingUtilities.h */,
+				C2A6E10B1CFD7B3A00A2B542 /* YUNDrawingUtilities.m */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		C2A6E10E1CFD7BE400A2B542 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C2A6E10F1CFD7C0600A2B542 /* YUNToolsKit_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -155,9 +313,25 @@
 			files = (
 				C24E903A1CD3425E00A09F52 /* YUNLabel.h in Headers */,
 				C292D6411CF53AB100F53B7F /* YUNTextView.h in Headers */,
-				C292D6391CF5381600F53B7F /* YUNButton.h in Headers */,
 				C24E90221CD341F800A09F52 /* YUNToolsKit.h in Headers */,
+				C292D6391CF5381600F53B7F /* YUNButton.h in Headers */,
 				C24E903F1CD349AD00A09F52 /* YUNLineView.h in Headers */,
+				C2A6E1071CFD6C8000A2B542 /* YUNBadgeView.h in Headers */,
+				C2A6E1161CFD8A4600A2B542 /* YUNGradientView.h in Headers */,
+				C2A6E10C1CFD7B3A00A2B542 /* YUNDrawingUtilities.h in Headers */,
+				C2D2725B1CFE74D700366B37 /* YUNLoadingView.h in Headers */,
+				C27992111D07D4C300991C12 /* YUNPieProgressView.h in Headers */,
+				C2981F7D1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.h in Headers */,
+				C2981F6C1D07A65100D8046A /* YUNWebView.h in Headers */,
+				C2981F751D07B5CF00D8046A /* NSNumber+YUNToolsKitAdditions.h in Headers */,
+				C2981F791D07B6BA00D8046A /* NSString+YUNToolsKitAdditions.h in Headers */,
+				C23EBFD31D080729006032E5 /* NSURL+YUNToolsKitAdditions.h in Headers */,
+				C23EBFD71D080989006032E5 /* NSDictionary+YUNToolsKitAdditions.h in Headers */,
+				C27992171D07F85000991C12 /* NSArray+YUNToolsKitAdditions.h in Headers */,
+				C2981F711D07B1F100D8046A /* NSMutableArray+YUNToolsKitAdditions.h in Headers */,
+				C2A6E1121CFD83E600A2B542 /* YUNBorderedView.h in Headers */,
+				C23EBFCF1D080367006032E5 /* NSDate+YUNToolsKitAdditions.h in Headers */,
+				C242DBBA1D06E3EC007FCF52 /* UIScrollView+YUNToolsKitAdditions.h in Headers */,
 				C292D63D1CF5395800F53B7F /* YUNTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,13 +384,14 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Tordian;
 				TargetAttributes = {
+					C242DB651D06DAF5007FCF52 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VQ8XFTA7VP;
+					};
 					C24E901D1CD341F800A09F52 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 					C24E90271CD341F800A09F52 = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					C29713E51CE33367004DC77E = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -235,7 +410,7 @@
 			targets = (
 				C24E901D1CD341F800A09F52 /* YUNToolsKit */,
 				C24E90271CD341F800A09F52 /* YUNToolsKitTests */,
-				C29713E51CE33367004DC77E /* target */,
+				C242DB651D06DAF5007FCF52 /* YUNToolsKit-Universal */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +433,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C29713E91CE333A3004DC77E /* ShellScript */ = {
+		C242DB691D06DB0C007FCF52 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,7 +444,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"${SF_TARGET_NAME}.framework/${SF_TARGET_NAME}\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\nrm -rf buildProducts\nmkdir buildProducts\n\n# Build the other platform.\nxcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nxcrun lipo -create \"${BUILT_PRODUCTS_DIR}/$PRODUCT_NAME.framework/$PRODUCT_NAME\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/$PRODUCT_NAME.framework/$PRODUCT_NAME\" -output \"${PROJECT_DIR}/buildProducts/$PRODUCT_NAME\"\n\ncp -rf ${BUILT_PRODUCTS_DIR}/$PRODUCT_NAME.framework ${PROJECT_DIR}/buildProducts\nmv ${PROJECT_DIR}/buildProducts/$PRODUCT_NAME ${PROJECT_DIR}/buildProducts/$PRODUCT_NAME.framework";
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -278,10 +453,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2A6E10D1CFD7B3A00A2B542 /* YUNDrawingUtilities.m in Sources */,
+				C27992121D07D4C300991C12 /* YUNPieProgressView.m in Sources */,
+				C2981F7A1D07B6BA00D8046A /* NSString+YUNToolsKitAdditions.m in Sources */,
+				C2981F7E1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.m in Sources */,
 				C292D63A1CF5381600F53B7F /* YUNButton.m in Sources */,
+				C242DBBB1D06E3EC007FCF52 /* UIScrollView+YUNToolsKitAdditions.m in Sources */,
+				C23EBFD01D080367006032E5 /* NSDate+YUNToolsKitAdditions.m in Sources */,
+				C2981F761D07B5CF00D8046A /* NSNumber+YUNToolsKitAdditions.m in Sources */,
+				C2A6E1131CFD83E600A2B542 /* YUNBorderedView.m in Sources */,
+				C27992181D07F85000991C12 /* NSArray+YUNToolsKitAdditions.m in Sources */,
+				C2A6E1081CFD6C8000A2B542 /* YUNBadgeView.m in Sources */,
+				C23EBFD81D080989006032E5 /* NSDictionary+YUNToolsKitAdditions.m in Sources */,
 				C292D6421CF53AB100F53B7F /* YUNTextView.m in Sources */,
+				C2A6E1171CFD8A4600A2B542 /* YUNGradientView.m in Sources */,
 				C24E903B1CD3425E00A09F52 /* YUNLabel.m in Sources */,
+				C2981F721D07B1F100D8046A /* NSMutableArray+YUNToolsKitAdditions.m in Sources */,
+				C2981F6D1D07A65100D8046A /* YUNWebView.m in Sources */,
 				C292D63E1CF5395800F53B7F /* YUNTextField.m in Sources */,
+				C2D2725C1CFE74D700366B37 /* YUNLoadingView.m in Sources */,
+				C23EBFD41D080729006032E5 /* NSURL+YUNToolsKitAdditions.m in Sources */,
 				C24E90401CD349AD00A09F52 /* YUNLineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +496,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		C242DB671D06DAF5007FCF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C242DB681D06DAF5007FCF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		C24E90301CD341F800A09F52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -332,6 +537,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "Other Sources/YUNToolsKit_Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -377,6 +583,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Other Sources/YUNToolsKit_Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -400,10 +607,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = /Volumes/DATA/YUNGit/ToolKit/YUNToolsKit/YUNToolsKit/YUNToolsKit_Prefix.pch;
 				INFOPLIST_FILE = YUNToolsKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tordian.YUNToolsKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -417,10 +627,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = /Volumes/DATA/YUNGit/ToolKit/YUNToolsKit/YUNToolsKit/YUNToolsKit_Prefix.pch;
 				INFOPLIST_FILE = YUNToolsKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tordian.YUNToolsKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -447,23 +660,18 @@
 			};
 			name = Release;
 		};
-		C29713E61CE33367004DC77E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		C29713E71CE33367004DC77E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C242DB661D06DAF5007FCF52 /* Build configuration list for PBXAggregateTarget "YUNToolsKit-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C242DB671D06DAF5007FCF52 /* Debug */,
+				C242DB681D06DAF5007FCF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C24E90181CD341F800A09F52 /* Build configuration list for PBXProject "YUNToolsKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -487,15 +695,6 @@
 			buildConfigurations = (
 				C24E90361CD341F800A09F52 /* Debug */,
 				C24E90371CD341F800A09F52 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C29713E81CE33367004DC77E /* Build configuration list for PBXAggregateTarget "target" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C29713E61CE33367004DC77E /* Debug */,
-				C29713E71CE33367004DC77E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

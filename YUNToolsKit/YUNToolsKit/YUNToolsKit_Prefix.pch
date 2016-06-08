@@ -1,0 +1,11 @@
+//
+//  YUNToolsKit_Prefix.pch
+//  YUNToolsKit
+//
+//  Created by Orange on 5/31/16.
+//  Copyright © 2016 Tordian. All rights reserved.
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
