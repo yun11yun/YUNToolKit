@@ -19,5 +19,22 @@
 #import <YUNToolsKit/YUNTextView.h>
 #import <YUNToolsKit/YUNPieProgressView.h>
 
-// Categories
+//Foudation Categories
 #import <YUNToolsKit/UIScrollView+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/UIViewController+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/UIView+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/UIScreen+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/UIImage+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/UIDevice+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/UIControl+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/UIColor+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/UIApplication+YUNToolsKitAdditions.h>
+
+//UIKit Categories
+#import <YUNToolsKit/NSMutableArray+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/NSNumber+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/NSString+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/NSData+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/NSArray+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/NSURL+YUNToolsKitAdditions.h>
+#import <YUNToolsKit/NSDictionary+YUNToolsKitAdditions.h>
