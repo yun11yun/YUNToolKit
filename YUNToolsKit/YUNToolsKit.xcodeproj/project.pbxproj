@@ -62,8 +62,6 @@
 		C2981F7E1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2981F7C1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.m */; };
 		C2981F811D07BDE100D8046A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2981F801D07BDE100D8046A /* Foundation.framework */; };
 		C2981F831D07BDED00D8046A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2981F821D07BDED00D8046A /* QuartzCore.framework */; };
-		C29F58291D48B1D100F81750 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C29F58281D48B1D100F81750 /* LICENSE */; };
-		C29F582B1D48B1DB00F81750 /* YUNToolsKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C29F582A1D48B1DB00F81750 /* YUNToolsKit.podspec */; };
 		C2A6E1071CFD6C8000A2B542 /* YUNBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A6E1051CFD6C8000A2B542 /* YUNBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2A6E1081CFD6C8000A2B542 /* YUNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A6E1061CFD6C8000A2B542 /* YUNBadgeView.m */; };
 		C2A6E10C1CFD7B3A00A2B542 /* YUNDrawingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A6E10A1CFD7B3A00A2B542 /* YUNDrawingUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -152,8 +150,6 @@
 		C2981F7C1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YUNToolsKitAdditions.m"; sourceTree = "<group>"; };
 		C2981F801D07BDE100D8046A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2981F821D07BDED00D8046A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		C29F58281D48B1D100F81750 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C29F582A1D48B1DB00F81750 /* YUNToolsKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUNToolsKit.podspec; sourceTree = "<group>"; };
 		C2A6E1051CFD6C8000A2B542 /* YUNBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNBadgeView.h; sourceTree = "<group>"; };
 		C2A6E1061CFD6C8000A2B542 /* YUNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNBadgeView.m; sourceTree = "<group>"; };
 		C2A6E10A1CFD7B3A00A2B542 /* YUNDrawingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNDrawingUtilities.h; sourceTree = "<group>"; };
@@ -240,8 +236,6 @@
 				C2BDC6161D0D1ECE0065C253 /* UIColor+YUNToolsKitAdditions.m */,
 				C23F9AC11D0D40AF00E36D73 /* UIApplication+YUNToolsKitAdditions.h */,
 				C23F9AC21D0D40AF00E36D73 /* UIApplication+YUNToolsKitAdditions.m */,
-				C29F58281D48B1D100F81750 /* LICENSE */,
-				C29F582A1D48B1DB00F81750 /* YUNToolsKit.podspec */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -505,8 +499,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C29F582B1D48B1DB00F81750 /* YUNToolsKit.podspec in Resources */,
-				C29F58291D48B1D100F81750 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
