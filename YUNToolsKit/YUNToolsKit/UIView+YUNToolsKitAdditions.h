@@ -88,4 +88,20 @@
  */
 - (id)firstSuperviewOfClass:(Class)superviewClass;
 
+
+///----------------------------------
+/// @name Geometry Of The View
+///----------------------------------
+
+/**
+ These are quick setter and getter properties
+ */
+@property (nonatomic, assign) CGFloat yun_x;
+@property (nonatomic, assign) CGFloat yun_y;
+@property (nonatomic, assign) CGFloat yun_width;
+@property (nonatomic, assign) CGFloat yun_height;
+@property (nonatomic, assign) CGSize yun_size;
+@property (nonatomic, assign) CGPoint yun_origin;
+
+
 @end

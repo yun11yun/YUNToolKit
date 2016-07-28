@@ -19,6 +19,11 @@
 #import <YUNToolsKit/YUNTextView.h>
 #import <YUNToolsKit/YUNPieProgressView.h>
 
+// Misc
+#import <YUNToolsKit/YUNRateLimit.h>
+#import <YUNToolsKit/YUNDrawingUtilities.h>
+#import <YUNToolsKit/YUNMacros.h>
+
 //Foudation Categories
 #import <YUNToolsKit/UIScrollView+YUNToolsKitAdditions.h>
 #import <YUNToolsKit/UIViewController+YUNToolsKitAdditions.h>

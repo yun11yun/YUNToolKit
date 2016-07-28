@@ -8,6 +8,23 @@
 
 #import "UIApplication+YUNToolsKitAdditions.h"
 
+@interface UIApplication (MSPrivateAdditions)
+- (void)_setNetworkActivityWithNumber:(NSNumber *)number;
+- (void)_setNetworkActivityIndicatorHidden;
+@end
+
+@implementation UIApplication (MSPrivateAdditions)
+
+- (void)_setNetworkActivityWithNumber:(NSNumber *)number {
+    [self setNetworkActivity:[number boolValue]];
+}
+
+- (void)_setNetworkActivityIndicatorHidden {
+    self.networkActivityIndicatorVisible = NO;
+}
+
+@end
+
 @implementation UIApplication (YUNToolsKitAdditions)
 
 - (BOOL)isPirated {
@@ -55,22 +72,5 @@
     return [[[NSFileManager defaultManager] URLsForDirectory:NSApplicationSupportDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
-
-@end
-
-@interface UIApplication (MSPrivateAdditions)
-- (void)_setNetworkActivityWithNumber:(NSNumber *)number;
-- (void)_setNetworkACtivityIndicatorHidden;
-@end
-
-@implementation UIApplication (MSPrivateAdditions)
-
-- (void)_setNetworkActivityWithNumber:(NSNumber *)number {
-    [self setNetworkActivity:[number boolValue]];
-}
-
-- (void)_setNetworkACtivityIndicatorHidden {
-    self.networkActivityIndicatorVisible = NO;
-}
 
 @end

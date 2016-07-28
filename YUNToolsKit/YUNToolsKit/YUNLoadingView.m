@@ -20,7 +20,7 @@ static CGFloat indicatorRightMargin = 8.0f;
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        
+        [self p_initializeLoadingView];
     }
     return self;
 }
@@ -29,7 +29,7 @@ static CGFloat indicatorRightMargin = 8.0f;
 {
     self = [super initWithFrame:frame];
     if (self) {
-        
+        [self p_initializeLoadingView];
     }
     return self;
 }
@@ -43,7 +43,7 @@ static CGFloat indicatorRightMargin = 8.0f;
                                 indicatorSize);
     
     CGSize textSize = [_textLabel.text sizeWithFont:_textLabel.font constrainedToSize:maxSize
-                                      lineBreakMode:UILineBreakModeWordWrap];
+                                      lineBreakMode:NSLineBreakByWordWrapping];
     
     // Calculate position
     CGFloat totalWidth = textSize.width + indicatorSize + indicatorRightMargin;
@@ -72,6 +72,20 @@ static CGFloat indicatorRightMargin = 8.0f;
     self.contentMode = UIViewContentModeRedraw;
     
     // Setup
+    _textLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+    
+    // Setup the indicator
+    _activityIndicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    _activityIndicatorView.hidesWhenStopped = NO;
+    [_activityIndicatorView startAnimating];
+    [self addSubview:_activityIndicatorView];
+    
+    // Defaults
+    _textLabel.text = @"Loading...";
+    _textLabel.font = [UIFont systemFontOfSize:16.0f];
+    _textLabel.textColor = [UIColor darkGrayColor];
+    _textLabel.shadowColor = [UIColor whiteColor];
+    _textLabel.shadowOffset = CGSizeMake(0.0f, 1.0f);
 }
 
 @end

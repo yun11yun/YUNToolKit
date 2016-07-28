@@ -43,13 +43,17 @@
 		C27992121D07D4C300991C12 /* YUNPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C27992101D07D4C300991C12 /* YUNPieProgressView.m */; };
 		C27992171D07F85000991C12 /* NSArray+YUNToolsKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C27992151D07F85000991C12 /* NSArray+YUNToolsKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C27992181D07F85000991C12 /* NSArray+YUNToolsKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C27992161D07F85000991C12 /* NSArray+YUNToolsKitAdditions.m */; };
-		C282CA5B1D3F2B400041E06F /* YUNMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C282CA591D3F2B400041E06F /* YUNMacros.h */; };
+		C282CA5B1D3F2B400041E06F /* YUNMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C282CA591D3F2B400041E06F /* YUNMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C292D6391CF5381600F53B7F /* YUNButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C292D6371CF5381600F53B7F /* YUNButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C292D63A1CF5381600F53B7F /* YUNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C292D6381CF5381600F53B7F /* YUNButton.m */; };
 		C292D63D1CF5395800F53B7F /* YUNTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C292D63B1CF5395800F53B7F /* YUNTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C292D63E1CF5395800F53B7F /* YUNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C292D63C1CF5395800F53B7F /* YUNTextField.m */; };
 		C292D6411CF53AB100F53B7F /* YUNTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C292D63F1CF53AB100F53B7F /* YUNTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C292D6421CF53AB100F53B7F /* YUNTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C292D6401CF53AB100F53B7F /* YUNTextView.m */; };
+		C2954D6E1D49EA9100BF5FE0 /* YUNHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2954D6C1D49EA9100BF5FE0 /* YUNHUDView.h */; };
+		C2954D6F1D49EA9100BF5FE0 /* YUNHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2954D6D1D49EA9100BF5FE0 /* YUNHUDView.m */; };
+		C2954D751D49EBDA00BF5FE0 /* YUNRateLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = C2954D731D49EBDA00BF5FE0 /* YUNRateLimit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2954D761D49EBDA00BF5FE0 /* YUNRateLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = C2954D741D49EBDA00BF5FE0 /* YUNRateLimit.m */; };
 		C2981F6C1D07A65100D8046A /* YUNWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2981F6A1D07A65100D8046A /* YUNWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2981F6D1D07A65100D8046A /* YUNWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2981F6B1D07A65100D8046A /* YUNWebView.m */; };
 		C2981F711D07B1F100D8046A /* NSMutableArray+YUNToolsKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C2981F6F1D07B1F100D8046A /* NSMutableArray+YUNToolsKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -138,6 +142,10 @@
 		C292D63C1CF5395800F53B7F /* YUNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNTextField.m; sourceTree = "<group>"; };
 		C292D63F1CF53AB100F53B7F /* YUNTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNTextView.h; sourceTree = "<group>"; };
 		C292D6401CF53AB100F53B7F /* YUNTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNTextView.m; sourceTree = "<group>"; };
+		C2954D6C1D49EA9100BF5FE0 /* YUNHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNHUDView.h; sourceTree = "<group>"; };
+		C2954D6D1D49EA9100BF5FE0 /* YUNHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNHUDView.m; sourceTree = "<group>"; };
+		C2954D731D49EBDA00BF5FE0 /* YUNRateLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNRateLimit.h; sourceTree = "<group>"; };
+		C2954D741D49EBDA00BF5FE0 /* YUNRateLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNRateLimit.m; sourceTree = "<group>"; };
 		C2981F6A1D07A65100D8046A /* YUNWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNWebView.h; sourceTree = "<group>"; };
 		C2981F6B1D07A65100D8046A /* YUNWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNWebView.m; sourceTree = "<group>"; };
 		C2981F6F1D07B1F100D8046A /* NSMutableArray+YUNToolsKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+YUNToolsKitAdditions.h"; sourceTree = "<group>"; };
@@ -306,6 +314,8 @@
 				C27992101D07D4C300991C12 /* YUNPieProgressView.m */,
 				C2981F6A1D07A65100D8046A /* YUNWebView.h */,
 				C2981F6B1D07A65100D8046A /* YUNWebView.m */,
+				C2954D6C1D49EA9100BF5FE0 /* YUNHUDView.h */,
+				C2954D6D1D49EA9100BF5FE0 /* YUNHUDView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -361,6 +371,8 @@
 			children = (
 				C2A6E10A1CFD7B3A00A2B542 /* YUNDrawingUtilities.h */,
 				C2A6E10B1CFD7B3A00A2B542 /* YUNDrawingUtilities.m */,
+				C2954D731D49EBDA00BF5FE0 /* YUNRateLimit.h */,
+				C2954D741D49EBDA00BF5FE0 /* YUNRateLimit.m */,
 				C282CA591D3F2B400041E06F /* YUNMacros.h */,
 			);
 			name = Misc;
@@ -397,7 +409,6 @@
 				C23EBFD71D080989006032E5 /* NSDictionary+YUNToolsKitAdditions.h in Headers */,
 				C2981F7D1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.h in Headers */,
 				C242DBBA1D06E3EC007FCF52 /* UIScrollView+YUNToolsKitAdditions.h in Headers */,
-				C282CA5B1D3F2B400041E06F /* YUNMacros.h in Headers */,
 				C2BDC6031D0CFD090065C253 /* UIView+YUNToolsKitAdditions.h in Headers */,
 				C2BDC60B1D0D0E300065C253 /* UIImage+YUNToolsKitAdditions.h in Headers */,
 				C2BDC6071D0D069F0065C253 /* UIScreen+YUNToolsKitAdditions.h in Headers */,
@@ -407,8 +418,11 @@
 				C23F9AC31D0D40AF00E36D73 /* UIApplication+YUNToolsKitAdditions.h in Headers */,
 				C2BDC5FF1D0CFBAD0065C253 /* UIViewController+YUNToolsKitAdditions.h in Headers */,
 				C2D2725B1CFE74D700366B37 /* YUNLoadingView.h in Headers */,
+				C2954D6E1D49EA9100BF5FE0 /* YUNHUDView.h in Headers */,
 				C27992111D07D4C300991C12 /* YUNPieProgressView.h in Headers */,
+				C282CA5B1D3F2B400041E06F /* YUNMacros.h in Headers */,
 				C2981F751D07B5CF00D8046A /* NSNumber+YUNToolsKitAdditions.h in Headers */,
+				C2954D751D49EBDA00BF5FE0 /* YUNRateLimit.h in Headers */,
 				C2981F6C1D07A65100D8046A /* YUNWebView.h in Headers */,
 				C2A6E1121CFD83E600A2B542 /* YUNBorderedView.h in Headers */,
 				C292D63D1CF5395800F53B7F /* YUNTextField.h in Headers */,
@@ -537,6 +551,7 @@
 				C27992121D07D4C300991C12 /* YUNPieProgressView.m in Sources */,
 				C2981F7A1D07B6BA00D8046A /* NSString+YUNToolsKitAdditions.m in Sources */,
 				C2981F7E1D07BD1E00D8046A /* NSData+YUNToolsKitAdditions.m in Sources */,
+				C2954D761D49EBDA00BF5FE0 /* YUNRateLimit.m in Sources */,
 				C292D63A1CF5381600F53B7F /* YUNButton.m in Sources */,
 				C242DBBB1D06E3EC007FCF52 /* UIScrollView+YUNToolsKitAdditions.m in Sources */,
 				C2981F761D07B5CF00D8046A /* NSNumber+YUNToolsKitAdditions.m in Sources */,
@@ -547,6 +562,7 @@
 				C23EBFD81D080989006032E5 /* NSDictionary+YUNToolsKitAdditions.m in Sources */,
 				C2BDC6001D0CFBAD0065C253 /* UIViewController+YUNToolsKitAdditions.m in Sources */,
 				C292D6421CF53AB100F53B7F /* YUNTextView.m in Sources */,
+				C2954D6F1D49EA9100BF5FE0 /* YUNHUDView.m in Sources */,
 				C2BDC60C1D0D0E300065C253 /* UIImage+YUNToolsKitAdditions.m in Sources */,
 				C2A6E1171CFD8A4600A2B542 /* YUNGradientView.m in Sources */,
 				C20EA6071D0D46D6001663F3 /* NSBundle+YUNToolsKitAdditions.m in Sources */,
